@@ -6,7 +6,7 @@ import inflection
 
 st.set_page_config(page_title='Cozinhas', page_icon='🍽️', layout='wide')
 
-df = pd.read_csv('dataset\zomato.csv')
+df = pd.read_csv("dataset/zomato.csv")
 
 # ---------------------------------------------- #
 #### LIMPEZA DE DADOS ####

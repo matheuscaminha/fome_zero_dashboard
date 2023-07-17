@@ -8,8 +8,7 @@ from PIL import Image
 
 st.set_page_config(page_title='Home', page_icon='🏠', layout='wide')
 
-df = pd.read_csv(r'dataset\zomato.csv')
-
+df = pd.read_csv('dataset\zomato.csv')
 
 # ---------------------------------------------- #
 #### LIMPEZA DE DADOS ####
